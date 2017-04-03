@@ -1,0 +1,61 @@
+=
+
+# Strings
+
+INIT=Welcome. Press enter to start the server
+PROMPT=Insert command, write help for a list of possibilities:
+SOCKET_CREATED=Socket created
+SOCKET_BINDED=Socket binded at: {0}:{1}
+SOCKET_LISTENING=Socket now listening
+ENDING_LISTENING=Ended listening for connections
+LOGIN=The user {0} has logged in. Total clients: {1}
+EXITING=The server is closing, press enter to exit. Have a nice day :)
+DISCONNECTED_USER=The user {0} has disconnected, let's pray for it's soul
+GENERATING_KEY=Generating a {0} bits criptographic key, this might take a while...
+IP=The ip of the user {0} is {1}
+USERLIST=Userlist: {0}
+KICKED=The user {0} has been kicked from the server
+BANNED=The user {0} has been banned from the server
+UNBANNED=The user {0} has been unbanned from the server
+BANLIST=Banlist: {0}
+
+# Errors
+SOCKET_FAILED=Main socket failed with the following error: {0}. Exit pls :)
+COMMAND_NOT_FOUND=Command {0} not found, type help for help :)
+SYNTAX_COMMAND_ERROR=The command {0} was written wrong. Type help to see the proper syntax
+UNEXPECTED_COMMAND_ERROR=The command {0} failed unexpectly with the following error: {1}. This is embarrasing, some code problems maybe...
+HELP_FILE_NOT_FOUND=The help file is missing, I hope it won't gank mid...
+REQUEST_FAILED=The request "{0}" from the client {1} failed with the following error: {2}
+FAILED_COMMAND=The command "{0}" failed with the following error: {1}
+FAILED_LOGIN=The ip {0} tried to connect but raised the following error: {1}
+USER_NOT_FOUND=The user {0} couldn't be found
+BANLIST_NOT_FOUND=The banlist file couldn't be found
+PROTOCOL_FAILED=The client request {0} was not recognized, ask gently the user {1} to get a compatible client
+
+# Commands
+
+ENTRY_IDENTIFIER=-->     {0}
+EXIT=exit
+TALK=talk
+SAY_WORD=say
+HELP=help
+SAVE=save
+GET_IP=getip
+USERLIST_WORD=userlist
+KICK=kick
+BAN=ban
+UNBAN=unban
+BANLIST_WORD=banlist
+
+# Actions
+
+SAY=[{0}]:{1}
+
+# Identifiers
+
+SERVER_IDENTIFIER=[SERVER ADMIN]: {0}
+USER_IDENTIFIER={0}:{1}
+
+# NAMES
+
+SERVER=SERVER ADMIN

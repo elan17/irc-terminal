@@ -1,0 +1,8 @@
+exit --> Closes the client
+say "message" -->  Sends message to all
+whisper user "message" --> Sends message to the user
+getip user --> Asks the ip of the user to the server
+userlist --> Asks the userlist to the server
+
+
+Press enter to exit :)

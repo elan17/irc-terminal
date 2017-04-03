@@ -1,0 +1,46 @@
+=
+GET_NICK=Insert your nickname:
+DISCONNECTED_USER=The user {0} has disconnected
+CONNECTED_USER=The user {0} has connected
+PROMPT=Insert command, write help for a list of possibilities:
+IP_USER=The ip of the user {0} is {1}
+BLANK={0}
+KICK=You have been kicked from the server
+BAN=You have been banned from the server
+DISCONNECTED=You've been disconnected. Press enter to exit
+KICKED=The user {0} has been kicked from the server
+BANNED=The user {0} has been banned from the server
+UNBANNED=The user {0} has been unbanned from the server
+
+# ERRORS
+
+UNHANDLED_CONNECTION_EXCEPTION=The incoming message: "{0}" failed to process with the following error: {1}
+FAILED_SEND=The client failed to send "{0}" with the following error: {1}
+FAILED_RECEIVE=The client failed to receive from the server with the following error: {0}
+FAILED_CRYPT=Failed to decrypt message with the following error: {0}
+FAILED_LOGIN=Failed login the client from {0} with the following error: {1}
+NICK_TAKEN=Nickname already taken, choose another one
+USER_NOT_FOUND=User {0} not found. Try another one please.
+IP_GETTING_DISABLE=The ip getting is disabled in this server. I'm sorry :(
+FAILED_COMMAND=Failed to execute command "{0}" with the following command: {1}
+IP_BANNED=Your ip is banned. Seems you're a bad guy
+NICK_BANNED=Your nick is banned. Try another one if you think your ip isn't
+INVALID_NICK=Invalid nickname, remember that spaces and "··" secuences are not allowed
+HELP_FILE_NOT_FOUND=The help file is missing, I hope it won't gank mid...
+COMMAND_NOT_FOUND=Command {0} not found, type help for help :)
+PROTOCOL_FAILED=The server sent the following message: "{0}". We where unable to handle it. Please, update your client
+
+# Commands
+
+SAY_WORD=say
+EXIT=exit
+GET_IP=getip
+WHISPER_WORD=whisper
+USERLIST_WORD=userlist
+HELP=help
+
+# Actions
+
+SAY=[{0}]:{1}
+WHISPER=      {0} whispers you: {1}
+USERLIST=USERLIST: {0}
