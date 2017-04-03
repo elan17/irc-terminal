@@ -1,0 +1,10 @@
+say "message"--> Sends a message to all clients
+ban user --> Bans user
+unban user --> Unban user
+banlist --> Print the banlist
+userlist --> Print the userlist
+exit --> Close the server
+kick user --> Kicks the user
+getip user --> Get the user's ip
+
+Press enter to exit :)
